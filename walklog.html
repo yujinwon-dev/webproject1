@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+  <title>my pet</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1>MY PET<h1>
+<h3 style="font-size:30px"> Menu</h3>
+<ul>
+  <li><a href="profile.html">profile</a></li>
+  <li><a href="walklog.html">walklog</a></li>
+  <li><a href="bucketlist.html">bucketlist</a></li>
+</ul>
+<h2>walklog &#128021;</h2>
+<style>
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+</style>
+
+<div class="month">
+  <ul>
+    <li class="prev">&#10094;</li>
+    <li class="next">&#10095;</li>
+    <li>
+      March<br>
+      <span style="font-size:18px">2021</span>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mon</li>
+  <li>Tue</li>
+  <li>Wed</li>
+  <li>Thu</li>
+  <li>Fri</li>
+  <li>Sat</li>
+  <li>Sun</li>
+</ul>
+
+<ul class="days">
+  <li>1<input type="checkbox"></li>
+  <li>2<input type="checkbox"></li>
+  <li>3<input type="checkbox"></li>
+  <li>4<input type="checkbox"></li>
+  <li>5<input type="checkbox"></li>
+  <li>6<input type="checkbox"></li>
+  <li>7<input type="checkbox"></li>
+  <li>8<input type="checkbox"></li>
+  <li>9<input type="checkbox"></li>
+  <li><span class="active">10<input type="checkbox"></span></li>
+  <li>11<input type="checkbox"></li>
+  <li>12<input type="checkbox"></li>
+  <li>13<input type="checkbox"></li>
+  <li>14<input type="checkbox"></li>
+  <li>15<input type="checkbox"></li>
+  <li>16<input type="checkbox"></li>
+  <li>17<input type="checkbox"></li>
+  <li>18<input type="checkbox"></li>
+  <li>19<input type="checkbox"></li>
+  <li>20<input type="checkbox"></li>
+  <li>21<input type="checkbox"></li>
+  <li>22<input type="checkbox"></li>
+  <li>23<input type="checkbox"></li>
+  <li>24<input type="checkbox"></li>
+  <li>25<input type="checkbox"></li>
+  <li>26<input type="checkbox"></li>
+  <li>27<input type="checkbox"></li>
+  <li>28<input type="checkbox"></li>
+  <li>29<input type="checkbox"></li>
+  <li>30<input type="checkbox"></li>
+  <li>31<input type="checkbox"></li>
+</ul>
+
+</body>
+</html>
